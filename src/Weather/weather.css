@@ -1,0 +1,70 @@
+svg{
+  margin-left: 5px;
+}
+
+.weather{
+  font-size: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather__block{
+  width: 200px;
+  text-align: center;
+  background-color: #03b4fa5b;
+  border-radius: 10px;
+  border: 3px ridge #407af77e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.element,.day,.temperature,.pressure,.humidity,.description{
+  padding: 15px 0;
+}
+
+.description{
+  height: 90px;
+}
+
+.day{
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.date{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.temperature{
+  display: flex;
+  justify-content: space-around;
+}
+
+.min{
+  color:#0000ff;
+}
+
+.max{
+  color: #ff0000;
+}
+
+.pressure{
+  line-height: 1.5;
+}
+.pressure__img{
+  margin-right:12px;
+}
+
+.humidity{
+  padding-bottom: 0;
+}
+
+.progress{
+  height: 20px;
+  background-color: #5984fae5;
+  margin: 0 8px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,144 @@
+.wraper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+    background-color: #ebebee;
+    border-radius: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Courier, monospace;
+    padding: 12px;
+}
+
+.addbutton{
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #d4d4d4;
+    color: #969696;
+    margin: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.area {
+	resize: none;
+    align-self: center;
+    outline: none;
+    color: #000000 !important;
+}
+
+.buttons{
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+}
+
+.accept,.cancel{
+    margin-right: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.accept{
+    background-color: #8df129;
+    border-color: #366803;
+    color: #366803;
+}
+
+.cancel{
+    background-color: #f75a4e;
+    border-color: #70110a;
+    color: #70110a;
+}
+
+.form{
+    position: relative;
+    width: 90%;
+}
+
+.items{
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    color: #ffffff;
+}
+
+.likedis{
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0 7px;
+}
+
+.rating{
+    margin: 15px;
+    user-select: none; 
+}
+
+.change{
+    background-color: #f1e429;
+    border-color: #9c9e05;
+    color: #9c9e05;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+.comment, .area{
+    font-size: 18px;
+    width: 92%;
+    border-radius: 7px;
+    height: auto;
+    min-height: 70px;
+    margin: 20px 0;
+    border: 4px dashed;
+    color: #f0f0f0;
+    padding: 15px 15px 35px 15px;
+    overflow-wrap: break-word;
+}
+
+.green .area{
+    border-color: #499200;
+    background-color: #05e7cd;
+}
+.green .comment{
+    border-color: #306100;
+    background-color: #009886;
+}
+
+.red .area{
+    border-color: #f0094e;
+    background-color: #ff6c98;
+}
+.red .comment{
+    background-color: #e92c64;
+    border-color: #b4063a;
+}
+
+.blue .area{
+    border-color: #4759f3;
+    background-color: #89a4fd;
+}
+.blue .comment{
+    border-color: #0920f0;
+    background-color: #577bf1;
+}

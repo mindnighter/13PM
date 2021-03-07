@@ -1,0 +1,19 @@
+.links{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.links a{
+  text-decoration: none;
+  color: #000;
+}
+
+.home{
+  text-align: center;
+}
+
+.home img{
+  width: 80%;
+}

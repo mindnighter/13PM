@@ -1,0 +1,23 @@
+.item{
+    font-size: 20px;
+    background-color: #e8ecec;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.doDone{
+    cursor: pointer;
+}
+
+.done{
+    opacity: 0.4;
+}
+
+.hidden{
+    display: none;
+}
